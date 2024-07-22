@@ -1,0 +1,29 @@
+/* src/CreditCardForm.css */
+.credit-card-form {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 50px;
+  border: 1px solid red;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
