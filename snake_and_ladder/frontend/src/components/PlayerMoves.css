@@ -1,0 +1,11 @@
+.moves {
+  width: 300px;
+  /* height: 400px; */
+  text-align: left;
+  font-size: 14px;
+  /* overflow-y: scroll; */
+}
+
+.move {
+  margin-bottom: 8px;
+}
