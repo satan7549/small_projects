@@ -1,4 +1,5 @@
 import "./App.css";
+import Matrix from "./components/Matrix";
 import RainEffect from "./components/RainEffect";
 import WaveEffect from "./components/WaveEffect";
 
@@ -10,8 +11,8 @@ function App() {
       </header>
       <main>
         {/* <RainEffect rows={15} cols={20} /> */}
-        <WaveEffect rows={5} cols={5} />
-
+        {/* <WaveEffect rows={5} cols={5} /> */}
+        <Matrix rows={20} cols={20} />
       </main>
     </div>
   );

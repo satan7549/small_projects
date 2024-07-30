@@ -1,0 +1,25 @@
+.matrix {
+  /* display: flex;
+  flex-direction: column; */
+  display: grid;
+  gap: 1px;
+  width: 70%;
+  height: 70%;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cell.active {
+  background-color: #3498db;
+}
